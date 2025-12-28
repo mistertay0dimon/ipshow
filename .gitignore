@@ -1,0 +1,43 @@
+# Ignore operating system files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore package manager files
+node_modules/
+package-lock.json
+yarn.lock
+pipenv.lock
+
+# Ignore log files
+*.log
+npm-debug.log
+
+# Ignore bytecode and compiled files
+*.class
+*.exe
+*.o
+*.so
+bin/
+obj/
+
+# Ignore data files
+*.csv
+*.dat
+*.db
+
+# Ignore backup files
+*.bak
+*.tmp
+
+# Ignore editor files
+*~
+.#*
+
+# Custom ignore rules
+# Add your custom ignore rules here...
